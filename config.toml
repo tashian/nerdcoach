@@ -1,0 +1,5 @@
+baseURL = "https://nerdcoach.io/"
+languageCode = "en-us"
+publishDir = "docs/"
+title = "Nerd Coach"
+theme = "nerdcoach"

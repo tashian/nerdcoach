@@ -1,0 +1,12 @@
+{{ if .Site.Menus.main }}
+<header class="bg-blue w-100 ph3 pv3 pv4-ns ph4-m ph5-l">
+    <nav class="f6 fw6 ttu tracked" role="navigation">
+        <a href="{{ .Site.BaseURL }}" class="f3 fw2 mr3 hover-white no-underline white-90 dib">{{ .Site.Title }}</a>
+        {{ range .Site.Menus.main }}
+        <a class="link dim white dib mr3" href="{{ .URL }}" title="{{ .Name }} page">
+            {{ .Name }}
+        </a>
+        {{ end }}
+    </nav>
+</header>
+{{ end }}

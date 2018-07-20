@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  {{- partial "head.html" . -}}
+  <body class="w-100 sans-serif bg-white">
+    <main>
+        {{- partial "site-nav.html" . -}}
+        {{- block "main" . }}{{- end }}
+    </main>
+  </body>
+</html>
