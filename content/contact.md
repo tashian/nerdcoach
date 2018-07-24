@@ -6,5 +6,5 @@ menu:
   main: {}
 ---
 
-{{< form-contact action="http://formspree.io/carl@nerdcoach.io"  >}}
+{{< form-contact action="https://formspree.io/carl@nerdcoach.io"  >}}
 
