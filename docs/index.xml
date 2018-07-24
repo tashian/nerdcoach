@@ -10,5 +10,14 @@
 	<atom:link href="https://nerdcoach.io/index.xml" rel="self" type="application/rss+xml" />
     
     
+    <item>
+      <title>Contact</title>
+      <link>https://nerdcoach.io/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/contact/</guid>
+      <description> Your Name Email Address An email address is required.  Message   </description>
+    </item>
+    
   </channel>
 </rss>

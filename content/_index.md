@@ -13,4 +13,4 @@ I've been in startups since I was in high school, as a Software Engineer in the 
 
 I've mentored founders at Code for America and Singularity U, and I've coached engineering managers at Google and Pivotal. I'm also an avid meditator, and I have seen first hand how important deep self-inquiry is for leadership. I want to help you become a better leader, manager, human, and nerd.
 {{% figure src="/sig.png" width="328" %}}
-[Say hello &rarr;](mailto:carl@nerdcoach.io)
+<a href="{{< relref "contact.md" >}}" class="karla f6 mt3 f4-ns fw6 dib ba b--black-20 bg-blue white ph3 ph4-ns pv2 pv3-ns br2 grow no-underline">Inquire</a>

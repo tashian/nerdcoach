@@ -1,9 +1,10 @@
 ---
-title: "Contact"
-menu: "main"
-draft: true
+title: Contact
+description: We'd love to hear from you
+type: page
+menu:
+  main: {}
 ---
 
-# Reach out.
+{{< form-contact action="http://formspree.io/carl@nerdcoach.io"  >}}
 
-I want to talk to you.
