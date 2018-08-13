@@ -13,7 +13,7 @@
     gtag('config', 'UA-113472270-2');
   </script>
   <title>{{ block "title" . }}{{ if eq .Site.Title .Params.Title }}{{ .Site.Title }}{{ else }}{{ .Site.Title }} | {{ .Params.Title }}{{ end }}{{ end }}</title>
-  <link href="https://fonts.googleapis.com/css?family=Karla:400,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
   {{ block "favicon" . }}
     {{ if .Site.Params.favicon }}
@@ -30,7 +30,7 @@
 
   <style>
   .remark {
-    font-family: 'Karla', Arial, sans-serif;
+    font-family: 'Open Sans', Arial, sans-serif;
     font-weight: bold;
     font-size: 1em;
     padding-bottom: 4px;
@@ -40,6 +40,9 @@
   }
   .karla {
     font-family: 'Karla', Arial, sans-serif;
+  }
+  .open-sans {
+    font-family: 'Open Sans', Arial, sans-serif;
   }
   .intro .portrait {
     float: left;
@@ -56,6 +59,26 @@
   }
   .intro + p {
     clear: left;
+  }
+  figcaption {
+    text-align: center;
+  }
+  figcaption p {
+    margin: 0;
+    font-size: 0.7em;
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  li {
+    padding: 5px 0 5px 5px;
+  }
+  article hr {
+	margin: 40px 200px;
+    border: 0;
+    background-color: #c3c3c3;
+    background-image: linear-gradient(left, #f7f6f4, #c3c3c3, #f7f6f4);
+    display: block;
+    height: 1px;
   }
   </style>
 </head>

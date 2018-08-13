@@ -1,8 +1,7 @@
 ---
 title: "Stories"
-menu: "main"
-draft: true
+menu:
+  main:
+    weight: 2
 ---
 
-My stories.
-A list

@@ -1,0 +1,10 @@
+<div class="pa2 pa3-ns">
+    <a href="{{ .Site.BaseURL }}" class="link dim black b f3 tc db mb1 mb1-ns">{{ .Site.Title }}</a>
+</div>
+<div class="tc pb2">
+    {{ $currentPage := . }}
+    {{ range .Site.Menus.main }}
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked {{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}black{{else}}black-50{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{ .Name }}</a>
+    {{ end }}
+</div>
+

@@ -2,6 +2,9 @@
 <html lang="en">
   {{- partial "head.html" . -}}
   <body class="w-100 sans-serif bg-white">
+    <nav>
+        {{- partial "nav.html" . -}}
+    </nav>
     <main>
         {{- block "main" . }}{{- end }}
     </main>

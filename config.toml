@@ -4,6 +4,7 @@ publishDir = "docs/"
 title = "Nerd Coach"
 theme = "nerdcoach"
 googleAnalytics = "UA-113472270-2" 
+enableEmoji = true
 [params]
     author = "Carl Tashian"
     description = "I work with engineering managers and founders to become more confident and effective leaders."
