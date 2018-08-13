@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113472270-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113472270-2');
+  </script>
+  <title>Nerd Coach | Managing Technical Debt</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  
+    
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    
+  <meta property="og:title" content="Managing Technical Debt" />
+<meta property="og:description" content="Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nerdcoach.io/story/managing-technical-debt/" />
+
+  <meta property="og:image" content="https://nerdcoach.io/story/managing-technical-debt/blocks.jpg" />
+
+
+
+<meta property="article:published_time" content="2017-03-17T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2017-03-17T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="Managing Technical Debt">
+<meta itemprop="description" content="Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on.">
+
+
+<meta itemprop="datePublished" content="2017-03-17T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2017-03-17T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1255">
+
+  <meta itemprop="image" content="https://nerdcoach.io/story/managing-technical-debt/blocks.jpg">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nerdcoach.io/story/managing-technical-debt/blocks.jpg"/>
+
+<meta name="twitter:title" content="Managing Technical Debt"/>
+<meta name="twitter:description" content="Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on."/>
+
+
+  <style>
+  .remark {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 4px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+  .karla {
+    font-family: 'Karla', Arial, sans-serif;
+  }
+  .open-sans {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  .intro .portrait {
+    float: left;
+    margin-bottom: -100px;
+    margin-right: 150px;
+  }
+  .intro h2 {
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #666;
+    float: left;
+    margin-left: 50px;
+    width: 450px;
+  }
+  .intro + p {
+    clear: left;
+  }
+  figcaption {
+    text-align: center;
+  }
+  figcaption p {
+    margin: 0;
+    font-size: 0.7em;
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  li {
+    padding: 5px 0 5px 5px;
+  }
+  article hr {
+	margin: 40px 200px;
+    border: 0;
+    background-color: #c3c3c3;
+    background-image: linear-gradient(left, #f7f6f4, #c3c3c3, #f7f6f4);
+    display: block;
+    height: 1px;
+  }
+  </style>
+</head>
+<body class="w-100 sans-serif bg-white">
+    <nav><div class="pa2 pa3-ns">
+    <a href="https://nerdcoach.io/" class="link dim black b f3 tc db mb1 mb1-ns">Nerd Coach</a>
+</div>
+<div class="tc pb2">
+    
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/" title="Nerd Coach">Home</a>
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/story/" title="Stories">Stories</a>
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/contact/" title="Contact">Contact</a>
+    
+</div>
+
+</nav>
+    <main>
+<article class="georgia pa4 f4 lh-copy measure-wide center">
+    <header>
+        <h1 class="open-sans f2">Managing Technical Debt</h1>
+    </header>
+    <div class="black-80">
+    
+
+
+<figure class="ma0">
+    
+        <img src="blocks.jpg" alt="Illustration by Siobhán K Cronin" />
+    
+    
+    <figcaption>
+        <p>
+        Illustration by Siobhán K Cronin
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on.</p>
+
+<p>Complexity is complex.</p>
+
+<p>I want to share with you a handful of tried-and-true practices that have really helped me as an engineering manager when keeping technical debt under control in a growing project.</p>
+
+<h3 id="keep-points-of-flexibility-in-the-right-places">Keep points of flexibility in the right places</h3>
+
+<p>Design your software as you would design a building. You have slow moving parts and fast moving parts. Some components, like furniture or wall paint, are loosely coupled to the building. It’s far harder to change the angles at which the walls meet. You have to pick your battles.</p>
+
+<p>Knowing what needs to be flexible isn’t only about the current requirements, it’s about future requirements too. This is what makes software design so difficult. You aren’t simply mapping your software to the world as it is in this moment, you are trying to predict an uncertain future. Now, this is folly to begin with, because the future is murky and there is a huge risk of premature optimization. But you must make choices between what is foundational and what is paint.</p>
+
+<p>The word <em>software</em> is a misnomer, because it implies uniform flexibility. Uniform flexibility might seem like an ideal to aim for, but the ground truth is that a more rigid, tightly coupled system is usually a lot simpler to build at first. For example, it may be argued that a monolithic app is more tightly coupled than a set of microservices — but the monolithic app has the advantage of simplicity. Before even one line of code is written, the microservice-based app has a giant list of requirements relating to communication, coordination, and availability.</p>
+
+<p>And it’s not as though microservices solve the coupling problem. They shift coupling to the network, which can have several really wonderful advantages and can allow for clean, crisp domain boundaries, but the coupling itself is unavoidable.</p>
+
+<p>So, flexibility is expensive. And the sad thing is, I can’t even count the number of times I’ve built something with some subtle beliefs in mind about how the requirements would change later, only to eventually find out that the rigid parts needed changing, and the flexible parts were unnecessarily flexible. At first I thought it was just bad luck, but now I know better.</p>
+
+<p>Software atrophies differently from buildings. If the requirements are pretty stable, the foundation won’t permanently shift or erode like it would in a building. Software doesn’t “wear out.” However, increased scale and new requirements will often impact the foundations. This is really difficult for startups to get right or to plan for, and it’s a problem that cloud services try to solve by encouraging design around scalability at the foundation from the beginning. But optimizing to manage cost and speed as you grow will still require a lot of foundational work, even with modern cloud services, microservice orchestration, and so on.</p>
+
+<h3 id="refactor-for-velocity">Refactor for velocity</h3>
+
+<p>Refactoring is one of the best ways to increase your overall velocity. A lot has been said about this already. On a codebase of any decent size, there is always refactoring that can be done. The key is to refactor in the right places — the places where you think you will need simplicity and flexibility in the future. In order for this not to be a guessing game, sometimes it’s nice to refactor ahead of a specific new feature.</p>
+
+<p>Agree to throw away code before writing it
+A simple way to reduce technical debt is to agree that some projects are throw-away experiments. For example, you might choose to branch your code and, as quickly and sloppily as possible, get a prototype together that you can validate. Even if the feature is a great success, you will throw away the code you wrote and rewrite it from scratch, properly. Prototyping in this way is risky and unorthodox because it requires that some people on your team lower their standards, but it can be very time-efficient.</p>
+
+<h3 id="build-with-tests-and-code-reviews">Build with tests and code reviews</h3>
+
+<p>Testing is a lifestyle. It is a devotional practice. Even for small projects, I’ve found that tests usually save more time than they waste. Often immediately. And if not immediately, they save time later.</p>
+
+<p>A strong code review culture is critical. No matter how many tests you write, no matter how good you are at refactoring, other people will see problems you missed. Assumptions you made that are confusing. Edge cases. Bugs. Typos. All kinds of stuff. Many companies demand three sets of eyes on every line of code, and I think that can be a good rule of thumb.</p>
+
+<p>The intensity of testing and code review should be commensurate with potential for damage caused by a failure. Foundational code needs more testing than front-end code. All of the software in an insulin pump needs heavier testing than pretty much any app. (Can you imagine the insulin pump team saying “Move fast and break things”?)</p>
+
+<h3 id="kill-your-poorly-performing-features">Kill your poorly-performing features</h3>
+
+<p>As fellow engineering manager Noah Thorp once told me, “We pay rent on every line of code, every day.”</p>
+
+<p>If you have less code, you’ll pay less rent. So, when I’m working on a project, I care about how each feature is performing, and will regularly bring the team together to decide to remove or improve the features that aren’t carrying their weight. This means occasionally admitting to yourself that a feature that you conceptually love simply isn’t working.</p>
+
+<p>If you can figure out that a feature isn’t right before you write any code, that’s ideal. Paper prototyping and other lo-fidelity user tests should be your first line of defense. There is always pressure, though. There is a constant din of people using the product and asking for terrible features that should never be built. Or features that should be built, but not yet. This is where product management meets engineering management, because even if building the feature is trivial, you still have to pay rent on it.</p>
+
+<h3 id="keep-dependencies-to-a-bare-minimum">Keep dependencies to a bare minimum</h3>
+
+<p>You pay rent on dependencies, too.</p>
+
+<p>There are internal and external dependencies. The internal dependencies are the libraries and frameworks that your software depends on. The external dependencies are all of the services your software connects to. You are doubly dependent on the services because they usually have a library associated with them.</p>
+
+<p>When you add a library to your project, you are paying rent on that entire library and your use of it. So, you need to make a good case for every library, every plugin. Even the tiny ones. They add up fast. And if you take the ultralight, disciplined approach, you will be amazed at how quickly you can move.</p>
+
+<h3 id="reenforce-it-in-the-culture">Reenforce it in the culture</h3>
+
+<p>All of these practices become easier when you have a culture and an environment that supports them. Support good code reviews with GitHub pull requests. Support strong testing with a good CI setup. Support killing features with a monthly meeting. Keep physical books around, like <a href="https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672">Refactoring</a>, that support good practices (and read them!).</p>
+
+<p>Get clear about what you’re building. Are you building a seaside hideout, a McMansion, or a glassy art museum? Your team has to agree on the answer to this question. Which is why the management of technical debt is not just the engineering manager’s job or the developer’s job. It’s everyone’s job, because it bleeds into every step of the process of making a product, from planning all the way through.</p>
+
+    </div>
+</article>
+
+    </main>
+  </body>
+</html>
