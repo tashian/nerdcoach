@@ -4,8 +4,7 @@ description: "The other day I started digging through startup post mortems, and 
 date: 2018-08-14
 resources:
 - name: cover
-  src: startup-cauldron.jpg
-  title: The Torment of the Cauldron, Claude Noury, 1506
+  src: gravestone.jpg
 ---
 
 I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:

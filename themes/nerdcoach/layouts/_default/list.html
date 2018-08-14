@@ -2,20 +2,28 @@
     <div class="f6 f4-ns lh-copy measure center">
         <article class="open-sans">
             <header>
-                <h1 class="f2">{{.Title}}</h1>
+                <h1 class="f2 mh3 mh0-ns">{{.Title}}</h1>
             </header>
             {{.Content}}
         </article>
         <!-- Ranges through content/post/*.md -->
         {{ range .Pages }}
-        <article class="pv3 bt bb b--black-10 ph3 ph0-l">
-            <div class="pr3-ns order-2 order-1-ns">
-                <a href="{{.Permalink}}" class="link">
-                  <h3 class="mv0 black-90">{{.Title}}</h3>
-                  <p class="mv1 f5 f4-l black-70 lh-copy">{{ .Description }}</p>
-                  <time class="f6 db gray">{{.Date.Format "Jan 2, 2006"}}</time>
-                </a>
-            </div>
+        <article class="bt bb b--black-10">
+            <a href="{{.Permalink}}" class="db pv3 ph3 ph0-l no-underline">
+                <div class="flex flex-column flex-row-ns">
+                   {{ with (.Resources.ByType "image").GetMatch "cover" }}
+                   {{ $thumb := .Resize "368x" }}
+                   <div class="w-100 w-40-ns pr3-ns mb3 mb0-ns">
+                       <img src="{{ $thumb.RelPermalink }}" class="db">
+                   </div>
+                   {{ end }}
+                   <div class="w-100 w-60-ns pl3-ns">
+                       <h3 class="mv0 black-90">{{.Title}}</h3>
+                       <p class="mv1 f5 f4-l black-70 lh-copy">{{ .Description }}</p>
+                       <time class="f6 db gray">{{.Date.Format "Jan 2, 2006"}}</time>
+                   </div>
+                </div>
+            </a>
         </article>
         {{ end }}
     </div>
