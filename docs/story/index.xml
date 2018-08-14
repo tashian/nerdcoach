@@ -6,10 +6,20 @@
     <description>Recent content in Stories on Nerd Coach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Aug 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nerdcoach.io/story/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What Really Kills Most Startups</title>
+      <link>https://nerdcoach.io/story/what-really-kills-most-startups/</link>
+      <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/story/what-really-kills-most-startups/</guid>
+      <description>The Torment of the Cauldron, Claude Noury, 1506   I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:
+ “Shyp wasted too much time building something people didn’t want” “Formspring lost touch with the product vision” “KiOR made poor hiring decisions as it staffed up”  True facts, all of them! But the technical cause of death is usually a veneer.</description>
+    </item>
     
     <item>
       <title>The Productivity Tip No One Wants to Hear</title>
