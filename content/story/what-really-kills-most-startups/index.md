@@ -2,10 +2,11 @@
 title: "What Really Kills Most Startups"
 description: "The other day I started digging through startup post mortems, and I came across a few founders courageous enough to feel their own bruises."
 date: 2018-08-14
-images: ["story/what-really-kills-most-startups/startup-cauldron.jpg"]
+resources:
+- name: cover
+  src: startup-cauldron.jpg
+  title: The Torment of the Cauldron, Claude Noury, 1506
 ---
-
-{{< figure src="startup-cauldron.jpg" caption="The Torment of the Cauldron, Claude Noury, 1506" class="ma0" >}} 
 
 I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:
 

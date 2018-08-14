@@ -2,10 +2,10 @@
 title: "The Productivity Tip No One Wants to Hear"
 description: "No modern productivity guru would dare suggest it, but minimalist painter Agnes Martin got into creative flow by stare at the wall for a few hours."
 date: 2018-03-01
-images: ["story/the-productivity-tip-no-one-wants-to-hear/staying-in-bed.jpg"]
+resources:
+- name: cover
+  src: staying-in-bed.jpg
 ---
-
-{{< figure src="staying-in-bed.jpg" class="ma0" >}} 
 
 Here’s the advice any ambitious person loves to hear:
 

@@ -2,10 +2,10 @@
 title: "Fear is a muscle that you can release"
 date: "2017-11-06"
 description: "I had learned to push through the fear. As a startup founder, every day I faced situations where I had to push through it. But pushing wore me out."
-images: ["story/fear-is-a-muscle-that-you-can-release/cactus.jpg"]
+resources:
+- name: cover
+  src: cactus.jpg
 ---
-
-{{< figure src="cactus.jpg" class="ma0" >}}
 
 We used to have a book on the shelf called, “Love is Letting Go of Fear.”
 

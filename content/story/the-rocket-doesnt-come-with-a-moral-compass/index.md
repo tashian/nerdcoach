@@ -2,10 +2,11 @@
 title: "The Rocket Doesn’t Come With a Moral Compass"
 description: "We all know the Zuckerbergian myth of dropping out of college, hungrily and foolishly, for glory, risk, and the promise of scalable impact and a big payout..."
 date: 2016-06-27
-images: ["story/the-rocket-doesnt-come-with-a-moral-compass/rocket.png"]
+resources:
+- name: cover
+  src: rocket.png
+  title: Illustration by Siobhán K Cronin
 ---
-
-{{< figure src="rocket.png" caption="Illustration by Siobhán K Cronin" class="ma0" >}} 
 
 We all know the Zuckerbergian myth of dropping out of college, hungrily and foolishly, for glory, risk, and the promise of scalable impact and a big payout. The landing page for the $100,000 Thiel Fellowship plays into this narrative: “Pursue ideas that matter instead of mandatory tests. Take on big risks instead of big debt.”
 

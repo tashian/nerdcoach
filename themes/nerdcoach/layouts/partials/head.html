@@ -20,10 +20,10 @@
     <link rel="shortcut icon" href="/{{ .Site.Params.favicon }}" type="image/x-icon" />
     {{ end }}
   {{ end }}
-  {{- template "_internal/opengraph.html" . -}}
+  {{- partial "opengraph.html" . -}}
+  {{- partial "twitter_card.html" . -}}
   {{- template "_internal/google_news.html" . -}}
   {{- template "_internal/schema.html" . -}}
-  {{- template "_internal/twitter_cards.html" . -}}
   {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
     {{ template "_internal/google_analytics_async.html" . }}
   {{ end }}

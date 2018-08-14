@@ -2,10 +2,11 @@
 title: "The Hidden Bets of Agile"
 date: 2017-09-30
 description: "The future is unknown, so we bet on which abstractions will make sense. We codify the bets."
-images: ["story/the-hidden-bets-of-agile/pachinko.jpg"]
+resources:
+- name: cover
+  src: pachinko.jpg
+  title: Photo by Tischbeinahe, CC-BY-SA
 ---
-
-{{< figure src="pachinko.jpg" caption="Photo by Tischbeinahe, CC-BY-SA" class="ma0" >}}
 
 Agile stories don’t tell us what to code; they are only examples. They offer small slices of the bigger abstractions that we’ll usually need.
 

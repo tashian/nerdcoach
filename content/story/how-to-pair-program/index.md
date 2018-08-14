@@ -2,10 +2,11 @@
 title: "How to Pair Program"
 description: "Drop the rockstar ego. Pairing is a duet, and you are an accompanist."
 date: 2016-06-23
-images: ["story/how-to-pair-program/pairing-station.jpg"]
+resources:
+- name: cover
+  src: pairing-station.jpg
+  title: Illustration by Siobhán K Cronin
 ---
-
-{{< figure src="pairing-station.jpg" caption="Illustration by Siobhán K Cronin" class="ma0" >}} 
 
 Programming, like any art practice, is a performance. Our code reflects the physical and virtual environment it was created in, the culture of the team, the social weather of the room, the constraints of the toolchain and the target architecture, and the mood and facility of the performer at moment of strike.
 

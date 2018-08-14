@@ -2,10 +2,11 @@
 title: "Managing Technical Debt"
 description: "Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on."
 date: 2017-03-17
-images: ["story/managing-technical-debt/blocks.jpg"]
+resources:
+- name: cover
+  src: blocks.jpg
+  title: Illustration by Siobhán K Cronin
 ---
-
-{{< figure src="blocks.jpg" caption="Illustration by Siobhán K Cronin" class="ma0" >}} 
 
 Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on.
 

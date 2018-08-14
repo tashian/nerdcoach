@@ -17,8 +17,8 @@
       <pubDate>Tue, 14 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/what-really-kills-most-startups/</guid>
-      <description>The Torment of the Cauldron, Claude Noury, 1506   I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:
- “Shyp wasted too much time building something people didn’t want” “Formspring lost touch with the product vision” “KiOR made poor hiring decisions as it staffed up”  True facts, all of them! But the technical cause of death is usually a veneer.</description>
+      <description>I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:
+ “Shyp wasted too much time building something people didn’t want” “Formspring lost touch with the product vision” “KiOR made poor hiring decisions as it staffed up”  True facts, all of them! But the technical cause of death is usually a veneer. Behavioral, cultural, and interpersonal issues are among the biggest killers of startups, but they are seldom discussed in public.</description>
     </item>
     
     <item>
@@ -30,7 +30,8 @@
       <description>Here’s the advice any ambitious person loves to hear:
  “I get to the library and all set-up by around 5:30AM. I spend a few minutes in prayer and meditation, followed by a 5–10 minute session in my journal. The purpose of this journal session is get clarity and focus for my day.”
 — productivity guru Benjamin P. Hardy
- And here’s what we don’t want to hear:</description>
+ And here’s what we don’t want to hear:
+ “I don’t get up in the morning until I know exactly what I’m going to do.</description>
     </item>
     
     <item>
@@ -50,8 +51,8 @@ I really had no idea what to do within myself to let go of fear.</description>
       <pubDate>Sat, 30 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/the-hidden-bets-of-agile/</guid>
-      <description>Photo by Tischbeinahe, CC-BY-SA   Agile stories don’t tell us what to code; they are only examples. They offer small slices of the bigger abstractions that we’ll usually need.
-Stories are tiny windows that we can peer through as we code. The simplicity of a story motivates and concentrates our creative effort. Their value is in boiling down the larger picture of the problem domain and what the customer really wants, in plain language.</description>
+      <description>Agile stories don’t tell us what to code; they are only examples. They offer small slices of the bigger abstractions that we’ll usually need.
+Stories are tiny windows that we can peer through as we code. The simplicity of a story motivates and concentrates our creative effort. Their value is in boiling down the larger picture of the problem domain and what the customer really wants, in plain language. It’s up to the team to work out the larger abstractions over time.</description>
     </item>
     
     <item>
@@ -60,7 +61,7 @@ Stories are tiny windows that we can peer through as we code. The simplicity of 
       <pubDate>Fri, 17 Mar 2017 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/managing-technical-debt/</guid>
-      <description>Illustration by Siobhán K Cronin   Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on.
+      <description>Many linear feet of books have been written about the complexity of software development, estimation, cost control, QA, and so on.
 Complexity is complex.
 I want to share with you a handful of tried-and-true practices that have really helped me as an engineering manager when keeping technical debt under control in a growing project.
 Keep points of flexibility in the right places Design your software as you would design a building.</description>
@@ -72,7 +73,7 @@ Keep points of flexibility in the right places Design your software as you would
       <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/the-rocket-doesnt-come-with-a-moral-compass/</guid>
-      <description>Illustration by Siobhán K Cronin   We all know the Zuckerbergian myth of dropping out of college, hungrily and foolishly, for glory, risk, and the promise of scalable impact and a big payout. The landing page for the $100,000 Thiel Fellowship plays into this narrative: “Pursue ideas that matter instead of mandatory tests. Take on big risks instead of big debt.”
+      <description>We all know the Zuckerbergian myth of dropping out of college, hungrily and foolishly, for glory, risk, and the promise of scalable impact and a big payout. The landing page for the $100,000 Thiel Fellowship plays into this narrative: “Pursue ideas that matter instead of mandatory tests. Take on big risks instead of big debt.”
 Certainly the person taking this path is betting big on wild success when they jump off of the university track.</description>
     </item>
     
@@ -82,7 +83,7 @@ Certainly the person taking this path is betting big on wild success when they j
       <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/how-to-pair-program/</guid>
-      <description>Illustration by Siobhán K Cronin   Programming, like any art practice, is a performance. Our code reflects the physical and virtual environment it was created in, the culture of the team, the social weather of the room, the constraints of the toolchain and the target architecture, and the mood and facility of the performer at moment of strike.
+      <description>Programming, like any art practice, is a performance. Our code reflects the physical and virtual environment it was created in, the culture of the team, the social weather of the room, the constraints of the toolchain and the target architecture, and the mood and facility of the performer at moment of strike.
 We often imagine a solo act. It’s 2am and our hero works at a laptop at a small desk in a dark bedroom.</description>
     </item>
     
@@ -92,7 +93,7 @@ We often imagine a solo act. It’s 2am and our hero works at a laptop at a smal
       <pubDate>Fri, 17 Jun 2016 00:00:00 +0000</pubDate>
       
       <guid>https://nerdcoach.io/story/death-by-a-thousand-great-ideas/</guid>
-      <description>No shortage of these.    found·er¹ (noun)
+      <description>found·er¹ (noun)
 a person who establishes an institution or settlement.
 the excited founders of a Silicon Valley startup
  At first, my co-founder Rahmin and I felt like we could do anything. We hadn’t set out with an idea — it was just, “Let’s start a company!” We’d found each other through a shared interest in continuing education, but we were interested in taking six months without committing to a specific path.</description>

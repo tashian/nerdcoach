@@ -1,10 +1,12 @@
 ---
 title: "Death By A Thousand Great Ideas"
 description: "At first, my co-founder and I felt like we could do anything. We hadn’t set out with an idea — it was just, “Let’s start a company!”"
-date: 2016-06-17
+date: "2016-06-17"
+resources:
+- name: cover
+  src: post-its.jpg
+  title: No shortage of these.
 ---
-
-{{< figure src="post-its.jpg" caption="No shortage of these." class="ma0" >}}
 
 > **found·er¹** (noun)<br />
 > a person who establishes an institution or settlement.<br />
