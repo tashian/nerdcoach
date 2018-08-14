@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width,minimum-scale=1">
+  <meta name="robots" content="index, follow">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113472270-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-113472270-2');
+  </script>
+  <title>Nerd Coach | How to Pair Program</title>
+  <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
+  
+    
+    <link rel="shortcut icon" href="/favicon.png" type="image/x-icon" />
+    
+  <meta property="og:title" content="How to Pair Program" />
+<meta property="og:description" content="Drop the rockstar ego. Pairing is a duet, and you are an accompanist." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nerdcoach.io/story/how-to-pair-program/" />
+
+  <meta property="og:image" content="https://nerdcoach.io/story/how-to-pair-program/pairing-station.jpg" />
+
+
+
+<meta property="article:published_time" content="2016-06-23T00:00:00&#43;00:00"/>
+
+<meta property="article:modified_time" content="2016-06-23T00:00:00&#43;00:00"/>
+
+
+
+
+
+
+
+
+
+
+
+<meta itemprop="name" content="How to Pair Program">
+<meta itemprop="description" content="Drop the rockstar ego. Pairing is a duet, and you are an accompanist.">
+
+
+<meta itemprop="datePublished" content="2016-06-23T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2016-06-23T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1113">
+
+  <meta itemprop="image" content="https://nerdcoach.io/story/how-to-pair-program/pairing-station.jpg">
+
+
+
+<meta itemprop="keywords" content="" />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://nerdcoach.io/story/how-to-pair-program/pairing-station.jpg"/>
+
+<meta name="twitter:title" content="How to Pair Program"/>
+<meta name="twitter:description" content="Drop the rockstar ego. Pairing is a duet, and you are an accompanist."/>
+
+
+  <style>
+  .remark {
+    font-family: 'Open Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 4px;
+    border-bottom: 2px solid red;
+    display: inline-block;
+    margin: 0 0 10px 0;
+  }
+  .karla {
+    font-family: 'Karla', Arial, sans-serif;
+  }
+  .open-sans {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  .intro .portrait {
+    float: left;
+    margin-bottom: -100px;
+    margin-right: 150px;
+  }
+  .intro h2 {
+    font-weight: normal;
+    font-size: 1.4em;
+    color: #666;
+    float: left;
+    margin-left: 50px;
+    width: 450px;
+  }
+  .intro + p {
+    clear: left;
+  }
+  figcaption {
+    text-align: center;
+  }
+  figcaption p {
+    margin: 0;
+    font-size: 0.7em;
+    color: #888;
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+  li {
+    padding: 5px 0 5px 5px;
+  }
+  article hr {
+	margin: 40px 200px;
+    border: 0;
+    background-color: #c3c3c3;
+    background-image: linear-gradient(left, #f7f6f4, #c3c3c3, #f7f6f4);
+    display: block;
+    height: 1px;
+  }
+  </style>
+</head>
+<body class="w-100 sans-serif bg-white">
+    <nav><div class="pa2 pa3-ns">
+    <a href="https://nerdcoach.io/" class="link black b f3 tc db mb1 mb1-ns">Nerd Coach</a>
+</div>
+<div class="tc pb2">
+    
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/" title="Nerd Coach">Home</a>
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/story/" title="Stories">Stories</a>
+    
+    <a class="mt0 mb0 mr3 f6 fw4 ttu link tracked black-50" href="/contact/" title="Contact">Contact</a>
+    
+</div>
+
+</nav>
+    <main>
+<article class="georgia pa4 f4 lh-copy measure-wide center">
+    <header>
+        <h1 class="open-sans f2">How to Pair Program</h1>
+    </header>
+    <div class="black-80">
+    
+
+
+<figure class="ma0">
+    
+        <img src="pairing-station.jpg" alt="Illustration by Siobhán K Cronin" />
+    
+    
+    <figcaption>
+        <p>
+        Illustration by Siobhán K Cronin
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Programming, like any art practice, is a performance. Our code reflects the physical and virtual environment it was created in, the culture of the team, the social weather of the room, the constraints of the toolchain and the target architecture, and the mood and facility of the performer at moment of strike.</p>
+
+<p>We often imagine a solo act. It’s 2am and our hero works at a laptop at a small desk in a dark bedroom. To their left is an empty can of energy drink. Their level of concentration is so deep that you could stomp through with a marching band and they might not notice.</p>
+
+<p>Or it’s 3pm and our hero is at their desk in a glassy, green-walled open-planned office. They’re listening to EDM, and everyone knows not to fuck with them when the earbuds are in. Distraction is so expensive these days.</p>
+
+<p>Pair programming doesn’t fit these archetypes. Pairing is a graceful duet. It allows two programmers to combine their strengths and build something more thoughtful and cohesive than a single person can build. I believe it’s the fastest way to become a better programmer. And it can be a delightful experience.</p>
+
+<h2 id="why-pair">Why pair?</h2>
+
+<p>Pair programming results in:</p>
+
+<ul>
+<li><strong>code with fewer defects.</strong> With two sets of eyes on everything being written, fewer bugs make their way through the cracks.</li>
+<li><strong>cleaner code that&rsquo;s easier to understand.</strong> Just because a solo programmer can comprehend their own code, that doesn’t mean it’s clean. But two people can really raise the quality level together.</li>
+<li><strong>a closer team.</strong> We develop empathy and connection with our teammates through pairing. It also reinforces a shared vocabulary.</li>
+<li><strong>faster learning or a faster pace</strong>, no matter your skill level. You can trade these things off depending on who you pair with. Sometimes you will learn fast but move slower than when working solo. Sometimes you can get more than two people’s worth of efficiency as a pair.</li>
+<li><strong>consistency of code style across a project.</strong> Pairing raises questions of code style and forces developers to agree on good — or at least consistent — answers.</li>
+<li><strong>a diffuse comprehension of the code across the team.</strong> Pairing breaks down code silos that tend to form when bigger projects are being built.</li>
+<li><strong>less time dealing with git branches and pull requests.</strong> You are reviewing the code as you write the code.</li>
+</ul>
+
+<h2 id="who-should-you-pair-with">Who should you pair with?</h2>
+
+<h3 id="in-short-anyone">In short: anyone.</h3>
+
+<p>Some options include:</p>
+
+<ul>
+<li>Two experienced developers. This is the most efficient pairing setup.</li>
+<li>A beginner and a seasoned developer. This is the best learning environment for both parties. Beginners often ask amazing and thought-provoking questions!</li>
+<li>Beginners pairing together will learn faster than working alone, and will challenge each other.</li>
+</ul>
+
+<hr />
+
+<h2 id="preparing-to-pair">Preparing to pair</h2>
+
+<p>Start by removing as many external distractions as you can. Put your mobile devices into airplane mode. Close Gmail. Turn on Do Not Disturb mode on your laptop. The best programming environment may be a separate account on the laptop that’s dedicated to focused work.</p>
+
+<p>Get a clean glass and fill it with water. Drink the entire thing. Now, refill the glass and bring it with you to the pairing station.</p>
+
+<p>Determine your roles. One person will drive, having control of the keyboard and mouse, and the other will navigate. (You can switch anytime you like.)</p>
+
+<p>Product decisions will emerge as you code. Who will have the final say on these? Is that person within reach?</p>
+
+<p>Everything happens on one monitor (or two mirrored monitors). The navigator should avoid doing side work on a mobile phone or laptop of their own during the session.</p>
+
+<p>The navigator is responsible for deflecting any potential interruptions by other team members.</p>
+
+<p>The navigator is responsible for monitoring any obstacles to development and noting opportunities for improvement of the toolchain. If a common step requires too much energy in the form of mouse work, commands, or keystrokes, make a note of it.</p>
+
+<p>Agree on the development software and key mappings you’ll use. A tried-and-true development environment that is well understood by both of you is much better than a fancy new and shiny one. Efficient pairing depends on alignment around the development environment and key bindings. Role switches during the session should feel super fluid and not require any additional switchover time within the environment.</p>
+
+<p>Clean your workspace, including the monitor.</p>
+
+<h3 id="you-will-need">You will need:</h3>
+
+<ul>
+<li>One machine, two mice, and two keyboards</li>
+<li>A place to take notes</li>
+</ul>
+
+<p>Now you can begin the pairing session.</p>
+
+
+<figure>
+    
+        <img src="pair-weaving.jpg" alt="WPA-era pair weaving" />
+    
+    
+    <figcaption>
+        <p>
+        WPA-era pair weaving
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<h3 id="during-the-session">During the session:</h3>
+
+<ul>
+<li>Empathy is key. You should both feel open, relaxed, safe, and aware of the emotional vibe of the session. Psychological safety is paramount! Stress, anxiety, and anger lead to bad code and burnout.</li>
+<li>Sometimes what seems like an offhand remark can be an emotional trigger. If this comes up, it’s time to take a break.</li>
+<li>Don’t allow the more senior person to drive for the entire session, even though it can be faster. The person with less experience will get more out of it if they type, even if they are being told what to type!</li>
+<li>You can switch roles as often as you like during the session.</li>
+<li>Psychological safety allows either person to speak up when they don’t understand something. “I don’t know” will be said often in a good pairing session, no matter your seniority. Typing should not proceed until both parties understand what is being written.</li>
+<li>Don’t code for too long without talking.</li>
+<li>What if you encounter a problem that neither person knows how to solve? Step away from the keyboard, and whiteboard and do some research for a minute. Go outside. Shut the door.</li>
+<li>Monitor your energy level. A pairing session is not time-bound, it is energy-bound. The pairing session ends when either party’s energy level begins to wane.</li>
+<li>Take notes along the way of anything you discover about the codebase that is out of scope of the session: areas of code in need of refactoring, unanswered programming questions, defects discovered, and ideas for improving the toolchain.</li>
+</ul>
+
+<h3 id="optional-practices">Optional practices</h3>
+
+<ul>
+<li>A common pattern combines pairing with TDD. One person writes a test and the other writes the code to make it pass. This has worked really well for me in the past.</li>
+<li>As the navigator, you may find it easier to focus if you have something to do with your hands. In Waldorf schools, the students knit while they learn. Why not knit while you code?</li>
+</ul>
+
+
+<figure>
+    
+        <img src="pair-knitting.jpg" alt="Traditional Shaker pair knitting" />
+    
+    
+    <figcaption>
+        <p>
+        Traditional Shaker pair knitting
+        
+            
+        
+        </p> 
+    </figcaption>
+    
+</figure>
+
+
+<p>Programming requires creativity, discipline, and patience. Pairing is a great way to develop all three. It is a performance practice and a skill in its own right. And it’s fun!</p>
+
+<p><em>Thanks to Siobhán K Cronin, Patrick Ewing, and Erik Hanson.</em></p>
+
+    </div>
+</article>
+
+    </main>
+  </body>
+</html>

@@ -6,10 +6,22 @@
     <description>Recent content on Nerd Coach</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 01 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nerdcoach.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The Productivity Tip No One Wants to Hear</title>
+      <link>https://nerdcoach.io/story/the-productivity-tip-no-one-wants-to-hear/</link>
+      <pubDate>Thu, 01 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/story/the-productivity-tip-no-one-wants-to-hear/</guid>
+      <description>Here’s the advice any ambitious person loves to hear:
+ “I get to the library and all set-up by around 5:30AM. I spend a few minutes in prayer and meditation, followed by a 5–10 minute session in my journal. The purpose of this journal session is get clarity and focus for my day.”
+— productivity guru Benjamin P. Hardy
+ And here’s what we don’t want to hear:</description>
+    </item>
     
     <item>
       <title>Fear is a muscle that you can release</title>
@@ -42,6 +54,26 @@ Stories are tiny windows that we can peer through as we code. The simplicity of 
 Complexity is complex.
 I want to share with you a handful of tried-and-true practices that have really helped me as an engineering manager when keeping technical debt under control in a growing project.
 Keep points of flexibility in the right places Design your software as you would design a building.</description>
+    </item>
+    
+    <item>
+      <title>The Rocket Doesn’t Come With a Moral Compass</title>
+      <link>https://nerdcoach.io/story/the-rocket-doesnt-come-with-a-moral-compass/</link>
+      <pubDate>Mon, 27 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/story/the-rocket-doesnt-come-with-a-moral-compass/</guid>
+      <description>Illustration by Siobhán K Cronin   We all know the Zuckerbergian myth of dropping out of college, hungrily and foolishly, for glory, risk, and the promise of scalable impact and a big payout. The landing page for the $100,000 Thiel Fellowship plays into this narrative: “Pursue ideas that matter instead of mandatory tests. Take on big risks instead of big debt.”
+Certainly the person taking this path is betting big on wild success when they jump off of the university track.</description>
+    </item>
+    
+    <item>
+      <title>How to Pair Program</title>
+      <link>https://nerdcoach.io/story/how-to-pair-program/</link>
+      <pubDate>Thu, 23 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/story/how-to-pair-program/</guid>
+      <description>Illustration by Siobhán K Cronin   Programming, like any art practice, is a performance. Our code reflects the physical and virtual environment it was created in, the culture of the team, the social weather of the room, the constraints of the toolchain and the target architecture, and the mood and facility of the performer at moment of strike.
+We often imagine a solo act. It’s 2am and our hero works at a laptop at a small desk in a dark bedroom.</description>
     </item>
     
     <item>
