@@ -8,7 +8,7 @@
         </article>
         <!-- Ranges through content/post/*.md -->
         {{ range .Pages }}
-        <article class="bt bb b--black-10">
+        <article class="bt b--black-10">
             <a href="{{.Permalink}}" class="db pv3 ph3 ph0-l no-underline">
                 <div class="flex flex-column flex-row-ns">
                    {{ with (.Resources.ByType "image").GetMatch "cover" }}
@@ -27,4 +27,7 @@
         </article>
         {{ end }}
     </div>
+{{ end }}
+{{ define "footer" }}
+    {{- partial "footer.html" . -}}
 {{ end }}
