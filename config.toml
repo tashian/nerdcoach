@@ -10,5 +10,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     author = "Carl Tashian"
     description = "I work with engineering managers and founders to become more confident and effective leaders."
     favicon = "favicon.png"
-[outputs]
-    page = ["HTML", "AMP"]
