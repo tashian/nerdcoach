@@ -1,0 +1,4 @@
+<a href="mailto:{{ .Get 0 }}" class="f1 fw6 no-underline link sans-serif">
+    {{ $parts := split (.Get 0) "@" }}
+    {{ index $parts 0 }}<span class="fw3">@{{ index $parts 1 }}</span>
+</a>

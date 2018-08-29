@@ -7,5 +7,9 @@ menu:
     weight: 100
 ---
 
-{{< form-contact action="https://formspree.io/carl@nerdcoach.io"  >}}
+{{< email "hello@nerdcoach.io" >}}
 
+Hi. If you're interested in coaching, have questions, or want to chat, write us here.
+
+Or, you can sign up for our mailing list to keep in touch:
+{{< mailchimp >}}
