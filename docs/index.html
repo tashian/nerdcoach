@@ -79,11 +79,20 @@
   .intro + p {
     clear: left;
   }
+  ul, ol {
+      padding-left: 0;
+      list-style-position: outside;
+  }
+  p + p {
+      text-indent: 1em;
+  }
+  p {
+    margin: 0 auto;
+  }
   figcaption {
     text-align: center;
   }
   figcaption p {
-    margin: 0;
     font-size: 0.7em;
     color: #888;
     font-family: 'Open Sans', Arial, sans-serif;
