@@ -5,6 +5,7 @@ date: 2018-03-01
 resources:
 - name: cover
   src: staying-in-bed.jpg
+  title:
 ---
 
 Here’s the advice any ambitious person loves to hear:

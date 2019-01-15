@@ -5,6 +5,7 @@ description: "I had learned to push through the fear. As a startup founder, ever
 resources:
 - name: cover
   src: cactus.jpg
+  title:
 ---
 
 We used to have a book on the shelf called, “Love is Letting Go of Fear.”
