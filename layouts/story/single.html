@@ -2,9 +2,12 @@
 <article class="georgia pa4 f4 lh-copy measure-wide center">
     {{ $img := (.Resources.ByType "image").GetMatch "cover" }}
     {{ with $img }}
-      {{ $big := .Resize "1232x" }}
-      {{ $small := $big.Resize "616x" }}
-      <img srcset="{{ $small.RelPermalink }} 1x, {{ $big.RelPermalink }} 2x" alt="{{ $img.Title }}" width="{{ $big.Width }}"  class="mw-100">
+      <figure>
+          {{ $big := .Resize "1232x" }}
+          {{ $small := $big.Resize "616x" }}
+          <img srcset="{{ $small.RelPermalink }} 1x, {{ $big.RelPermalink }} 2x" alt="{{ $img.Title }}" width="{{ $big.Width }}"  class="mw-100">
+          <figcaption>{{ $img.Title }}</figcaption>
+      </figure>
     {{ end }}
     <header>
         <h1 class="open-sans f3 fw8 fw4-ns f2-ns">{{.Title}}</h1>

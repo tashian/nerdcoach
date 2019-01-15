@@ -4,7 +4,8 @@ description: "The other day I started digging through startup post mortems, and 
 date: 2018-08-14
 resources:
 - name: cover
-  src: gravestone.jpg
+  src: end.jpg
+  title: Photo by Matt Botsford on Unsplash
 ---
 
 I’ve noticed that Silicon Valley founders, when talking shop, love digging into the business reasons for why startups die:
