@@ -7,9 +7,18 @@ menu:
     weight: 100
 ---
 
-{{< email "hello@nerdcoach.io" >}}
+If you have questions about coaching, you can write Carl at <a href="mailto:hello@nerdcoach.io">hello@nerdcoach.io</a>.
 
-Hi. If you're interested in coaching, have questions, or want to chat, write us here.
+But, the best way to figure out if coaching is for you is to have a session.
 
-Or, you can sign up for our mailing list to keep in touch:
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/nerdcoach/hi" style="min-width:320px;height:670px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+<!-- Calendly inline widget end -->
+
+----
+
+If you're not ready for that, you always can sign up for **our mailing list**:
 {{< mailchimp >}}
+Max. 2 emails per month
+
