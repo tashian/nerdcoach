@@ -1,6 +1,6 @@
 ---
 title: "The Productivity Tip No One Wants to Hear"
-description: "No modern productivity guru would dare suggest it, but minimalist painter Agnes Martin got into creative flow by stare at the wall for a few hours."
+description: "No modern productivity guru would dare suggest it, but minimalist painter Agnes Martin got into creative flow by staring at the wall for a few hours."
 date: 2018-03-01
 resources:
 - name: cover
