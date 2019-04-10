@@ -26,7 +26,7 @@ Who stays in bed until three in the afternoon, staring out the window in silent 
 
 Agnes Martin’s approach is such a stark contrast to Benjamin P. Hardy, Tim Ferriss, Tony Robbins, and other self-improvement experts who have normalized the idea that it should take ten minutes a day to tee up our goals and blast off like a rocket.
 
-For some people, sometimes, when the inner channel is open and ready to go, the entire day can crystalize in a handful of minutes.
+For some people, sometimes, when the inner channel is open and ready to go, the entire day _can_ crystalize in a handful of minutes.
 
 But then there are other times. Times when we really don’t know what’s next or what we want. There is no vision, no picture, only emptiness. Or the opposite: we are totally overwhelmed. We have competing goals that fracture our days, and our priorities are muddled in a way that no amount of journaling seems to solve.
 
