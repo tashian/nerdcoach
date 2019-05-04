@@ -37,9 +37,9 @@ code problems|business problems
 a strongly-held model|many perspectives
 hyper-rational|intuitive
 
-If you try to manage a team while in developer mode, it can be a huge struggle. Soft skills are hard! You may feel frustrated in your attempts to influence others or create a space for your team to do their best work. Frankly, it's a ticket to burnout. 
+If you try to manage a team while in developer mode, it can be a huge struggle. Soft skills are hard! You may feel frustrated in your attempts to influence others or create a space for your team to do their best work.
 
-It's possible to change your mindset. To work from a place of natural presence as a leader. With presence, many soft skills become much easier. Management work becomes fulfilling in ways you couldn't imagine before.
+It's possible to change your mindset. To work from a place of natural presence as a leader. With presence, new soft skills become available and begin to feel more natural. Management work becomes fulfilling in ways you couldn't have imagined.
 
 I can help you make the shift.
 
@@ -69,14 +69,14 @@ The garden was amazing. I kept watering it. Planned out space for new containers
 
 The side effect of this practice was that I lived from that analytical mind even when I wasn't coding. I lived in the land of ideas. I developed a very good intuition about software, but I wasn't able to extend it into reading people. I couldn't leave the garden walls. When I cooked, I had to cook recipes _to the letter_ or I'd feel unsettled. And don't get me started on how I behaved at all the parties I never went to.
 
-Between the attention required by engineering work for dozens of hours a week, and the seriousness with which I took care of my garden, I inadvertently trained myself into a kind of developer's dissocation. You know what I'm talking about. When you finally step away from the desk and you have trouble forming sentences around other humans? It's pretty frustrating.
+Between the attention required by engineering work for dozens of hours a week, and the seriousness with which I took care of my garden, I inadvertently trained myself into a kind of developer's dissocation. Maybe you know what I'm talking about. When you finally step away from the desk, and you have trouble forming sentences around other humans? It's pretty frustrating.
 
-I developed some skills for getting myself out of "developer head" more quickly, and that led me to broader discoveries about the power of getting back into my body as a human, or "healing the mind-body split." More like remembering that I even have a body. 
+I developed some skills for getting myself out of "dev mode" more quickly, and that led me to broader discoveries about the power of getting back into my body as a human, or "healing the mind-body split." More like remembering that I even have a body, and finally understanding what a huge role it plays in intuition, vulnerability, and all kinds of other leadership skills.
 
 ----
 ## ☯️ The worthwhile pursuit of wholeness
 
-I don't believe there is a left brain vs. right brain, jock vs. nerd split that is wired into our circuitry at birth. We are not immutable that way. I think as adolencents, people discover and favor a particular way of using their minds and get excited about all of the possibilities therein. As an adult, however, it's possible to round things out and develop the use of your mind toward wholeness. You've got all that gray matter anyway, why not use it? The potential benefits are huge.
+I don't believe there is a left brain vs. right brain, jock vs. nerd split that is wired into our circuitry at birth. We are not immutable that way. I think as adolencents, people discover and favor a particular way of using their minds and get excited about all of the possibilities therein. But cognitive development doesn't end as you get older. There are major cognitive shifts that can happen as you get older. It's possible to add new capacities and round out areas. You've got all that gray matter anyway, why not use it?
 
 So, I believe in the pursuit of wholeness. I believe that when we intensely grow into one domain (like engineering), we do so at the expense of growth in other domains. Wholeness is about finding your way to the balanced mind of a leader.
 
