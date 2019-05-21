@@ -8,7 +8,7 @@ menu:
 
 <div class="karla remark">The nerd in your corner</div>
 
-I'm here to help you move from a developer role into engineering management; to take on the challenging project of becoming a more confident and effective leader.
+I'm here to help you move from a developer role into engineering leadership; to take on the challenging project of becoming a more confident and effective leader.
 
 I've been involved in startups for 15 years, as a software engineer in the early years of Zipcar, and more recently as Head of Engineering and Co-founder at Yerdle. I've had the sleepless nights and difficult conversations. I've had to learn how to maintain my sanity while underwater, and how to make my way back to the surface. I've been lucky enough to work with amazing mentors who have shown me how to bring my full humanity into my work.
 
