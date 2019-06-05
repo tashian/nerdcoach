@@ -4,13 +4,16 @@ menu:
   main:
     name: "Home"
     weight: 1
+resources:
+- name: cover
+  src: carl-portrait.jpg
 ---
 
 <div class="karla remark">The nerd in your corner</div>
 
 I'm here to help you move from a developer role into engineering leadership; to take on the challenging project of becoming a more confident and effective leader.
 
-I've been involved in startups for 15 years, as a software engineer in the early years of Zipcar, and more recently as Head of Engineering and Co-founder at Yerdle. I've had the sleepless nights and difficult conversations. I've had to learn how to maintain my sanity while underwater, and how to make my way back to the surface. I've been lucky enough to work with amazing mentors who have shown me how to bring my full humanity into my work.
+I've been involved in startups for 15 years. I built Zipcar's technology, and more recently was Head of Engineering and Co-founder at Yerdle. I've had the sleepless nights and difficult conversations. I've had to learn how to maintain my sanity while underwater, and how to make my way back to the surface. I've been lucky enough to work with amazing mentors who have shown me how to bring my full humanity into my work.
 
 These days I mentor founders at Singularity U and I coach engineering managers at companies like Google and Pivotal. I'm also an avid meditator, and have seen&mdash;firsthand&mdash;how important deep self-inquiry and self-awareness is for effective leadership. I want to help you become a better leader, manager, human, and nerd.
 
