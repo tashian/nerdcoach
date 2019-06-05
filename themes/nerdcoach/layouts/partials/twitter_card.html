@@ -1,8 +1,6 @@
-{{ with (.Resources.ByType "image").GetMatch "cover" }}
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image:src" content="{{ .RelPermalink | absURL }}"/>
-{{ else -}}
 <meta name="twitter:card" content="summary"/>
+{{ with (.Resources.ByType "image").GetMatch "cover" }}
+<meta name="twitter:image" content="{{ .RelPermalink | absURL }}"/>
 {{- end -}}
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}"/>
