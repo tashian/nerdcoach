@@ -79,7 +79,7 @@ I developed some skills for getting myself out of "dev mode" more quickly, and t
 ----
 ## ☯️ The worthwhile pursuit of wholeness
 
-I don't believe there is a left brain vs. right brain, jock vs. nerd split that is wired into our circuitry at birth. We are not immutable that way. I think as adolencents, people discover and favor a particular way of using their minds and get excited about all of the possibilities therein. But cognitive development doesn't end as you get older. There are major cognitive shifts that can happen as you get older. It's possible to add new capacities and round out areas. You've got all that gray matter anyway, why not use it?
+I don't believe there is a left brain vs. right brain, jock vs. nerd split that is wired into our circuitry at birth. We are not immutable that way. I think as adolescents, we discover and favor a particular way of using our minds and get excited about all of the possibilities therein. But cognitive development doesn't end when you become an adult. Major [cognitive shifts](https://en.wikipedia.org/wiki/Constructive_developmental_framework) can happen as you get older.
 
 So, I believe in the pursuit of wholeness. I believe that when we intensely grow into one domain (like engineering), we do so at the expense of growth in other domains. Wholeness is about finding your way to the balanced mind of a leader.
 
