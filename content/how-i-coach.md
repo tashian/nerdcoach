@@ -14,7 +14,7 @@ Every coaching engagement is different. Here's a few common areas where I can he
 
 For example, you're noticing that what for you worked before, isn't working anymore. You know you want to change. I help you develop a commitment to your change, and to run experiments in a new direction. Experiments that may be difficult or awkward at first, but that can become second nature with practice.  
 
-Coaching isn't just about getting through the challenge alive. It's about the opportunity for growth that lives within any challenge.
+Coaching isn't just about getting through a challenge alive. It's about the opportunity for growth that lives within any challenge.
 
 * Improving specific skills
 
@@ -24,6 +24,7 @@ Some clients show up with a desire to, say, improve their coaching skills or the
 
 Listening is a huge component of coaching. I make space for you, and in that space we're able to see some patterns, motivations, and opportunities for growth. I help you bring unconscious patterns into the light, where we can work with them.
 
+Most of our work will happen in these three areas, and we'll often move between them in a session.
 
 ## Questions?
 
