@@ -1,7 +1,6 @@
 ---
 title: How I Coach
 ---
-# How I Coach
 Coaching is a great place to develop yourself because it's not a typical employer-employee relationship. It's a relationship that you and I design together. Most importantly, I get to be here for your growth, with no conflicting incentives. As we get to know each other, the coaching relationship becomes a stronger container for that growth.
 
 Coaching is a practice that specializes in changing awareness and action, so we can change the world around us.
