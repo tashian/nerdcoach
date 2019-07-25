@@ -72,7 +72,7 @@ The garden was amazing. I kept watering it. Planned out space for new containers
 
 The side effect of this practice was that I lived from that analytical mind even when I wasn't coding. I lived in the land of ideas. I developed a very good intuition about software, but I wasn't able to extend it into reading people. I couldn't leave the garden walls. When I cooked, I had to cook recipes _to the letter_ or I'd feel unsettled. And don't get me started on how I behaved at all the parties I never went to.
 
-Between the attention required by engineering work for dozens of hours a week, and the seriousness with which I took care of my garden, I inadvertently trained myself into a kind of developer's dissocation. Maybe you know what I'm talking about. When you finally step away from the desk, and you have trouble forming sentences around other humans? It's pretty frustrating.
+Between the attention required by engineering work for dozens of hours a week, and the seriousness with which I took care of my garden, I inadvertently trained myself into a kind of developer's dissociation. Maybe you know what I'm talking about. When you finally step away from the desk, and you have trouble forming sentences around other humans? It's pretty frustrating.
 
 I developed some skills for getting myself out of "dev mode" more quickly, and that led me to broader discoveries about the power of getting back into my body as a human, or "healing the mind-body split." More like remembering that I even have a body, and finally understanding what a huge role it plays in intuition, vulnerability, and all kinds of other leadership skills.
 
