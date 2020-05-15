@@ -10,3 +10,9 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     description = "I'm here to help you move from a IC role into leadership."
     favicon = "favicon.png"
 
+# Needed for mermaid/katex shortcodes
+[markup]
+[markup.goldmark.renderer]
+  unsafe = true
+
+

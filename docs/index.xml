@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nerd Coach</title>
@@ -107,7 +107,7 @@ the excited founders of a Silicon Valley startup
       <guid>https://nerdcoach.io/contact/</guid>
       <description>If you have questions about coaching, you can write Carl at hello@nerdcoach.io.
 But, the best way to figure out if coaching is for you is to have a session.
-  If you&amp;rsquo;re not ready for that, you always can sign up for our mailing list:    Max. 2 emails per month</description>
+   If you&amp;rsquo;re not ready for that, you always can sign up for our mailing list:    Max. 2 emails per month</description>
     </item>
     
     <item>
@@ -118,6 +118,16 @@ But, the best way to figure out if coaching is for you is to have a session.
       <guid>https://nerdcoach.io/how-i-coach/</guid>
       <description>Coaching is a great place to develop yourself because it&amp;rsquo;s not a typical employer-employee relationship. It&amp;rsquo;s a relationship that you and I design together. Most importantly, I get to be here for your growth, with no conflicting incentives. As we get to know each other, the coaching relationship becomes a stronger container for that growth.
 Coaching is a practice that specializes in changing awareness and action, so we can change the world around us.</description>
+    </item>
+    
+    <item>
+      <title>Pay What You Want Coaching</title>
+      <link>https://nerdcoach.io/pwyw/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nerdcoach.io/pwyw/</guid>
+      <description>Down to $0. In light of covid-19, I&amp;rsquo;d like to help as many people as I can.
+How much would you like to pay?  </description>
     </item>
     
   </channel>
