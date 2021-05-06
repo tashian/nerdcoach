@@ -5,14 +5,7 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
   <meta name="robots" content="index, follow">
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113472270-2"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'UA-113472270-2');
-  </script>
+  <script async defer data-domain="nerdcoach.io" src="https://analytics.tashian.com/js/plausible.js"></script>
   <title>{{ block "title" . }}{{ if eq .Site.Title .Params.Title }}{{ .Site.Title }}{{ else }}{{ .Site.Title }} | {{ .Params.Title }}{{ end }}{{ end }}</title>
   <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"/>
@@ -25,9 +18,6 @@
   {{- partial "twitter_card.html" . -}}
   {{- template "_internal/google_news.html" . -}}
   {{- template "_internal/schema.html" . -}}
-  {{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
-    {{ template "_internal/google_analytics_async.html" . }}
-  {{ end }}
 
   <style>
   .remark {
