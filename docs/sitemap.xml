@@ -1,67 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
     <loc>https://nerdcoach.io/</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/what-really-kills-most-startups/</loc>
     <lastmod>2018-08-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/the-productivity-tip-no-one-wants-to-hear/</loc>
     <lastmod>2018-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/fear-is-a-muscle-that-you-can-release/</loc>
     <lastmod>2017-11-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/the-hidden-bets-of-agile/</loc>
     <lastmod>2017-09-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/managing-technical-debt/</loc>
     <lastmod>2017-03-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/the-rocket-doesnt-come-with-a-moral-compass/</loc>
     <lastmod>2016-06-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/how-to-pair-program/</loc>
     <lastmod>2016-06-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/story/death-by-a-thousand-great-ideas/</loc>
     <lastmod>2016-06-17T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/contact/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/how-i-coach/</loc>
-  </url>
-  
-  <url>
+  </url><url>
     <loc>https://nerdcoach.io/pwyw/</loc>
   </url>
-  
 </urlset>
